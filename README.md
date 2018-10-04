@@ -5,6 +5,7 @@ This example can be adapted to any boards, isn't so much esp8266 specifi, anyway
 In the example webpage the script requests every seconds two values, and the server send requested infos as an array of comma separated values, the script at least will place received values where they have to be.
 The two foundamentals parts of this program are the javascritp part:
 
+```javascript
 //******************************************************
 //* JQUERY from the WebPage to the Server              *
 //******************************************************
@@ -25,9 +26,11 @@ function getData() {\
 }\
 </script>";
 //******************************************************
+```
 
 and the Server side counterpart handler:
 
+```javascript
 //***********************************************************
 //* JQUERY REPLIES from Server to WebPage                   *
 //*********************************************************** 
@@ -37,5 +40,6 @@ void handleJQuery() {
   server.send ( 200, "text/plain", String(WiFi.RSSI()) + "," + String(ESP.getVcc()));                                 
 }
 //*********************************************************** 
+```
 
 use & abuse this code as you wont!
