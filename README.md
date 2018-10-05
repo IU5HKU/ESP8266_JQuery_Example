@@ -1,7 +1,7 @@
 # ESP8266_JQuery_Example
 A simple (naive?) example to handle JQuery requests from a webpage in ESP8266
 
-This example can be adapted to any boards, isn't so much esp8266 specifi, anyway i've wrote it for use in IoT project (i use it in MiniWX), and in substance handle the requests that a webpage submits with a JavaScritp to a Server, requesting data to update dynamically in the page.
+This example can be adapted to any boards, isn't so much esp8266 specifi, anyway i've wrote it for use in IoT project (i use it in MiniWX), and in substance handles the requests that a webpage submits with a JavaScritp to a Server, requesting data to update dynamically in the page.
 In the example webpage the script requests every seconds two values, and the server send requested infos as an array of comma separated values, the script at least will place received values where they have to be.
 The two foundamentals parts of this program are the javascript part...
 
