@@ -42,4 +42,4 @@ void handleJQuery() {
 //*********************************************************** 
 ```
 
-use & abuse this code as you wont!
+use & abuse this code as you want!
